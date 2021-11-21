@@ -21,11 +21,11 @@ body {
 .container-content {
   width: 100%;
   max-width: 1200px;
-  height: calc(100% - 75px);
+  height: calc(100% - 50px);
 }
 
 .down-arrow-div {
-  height: 75px;
+  height: 50px;
 }
 
 .down-arrow {
@@ -55,6 +55,12 @@ body {
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(134, 38, 51)),
       url("./images/Cole_Thomas_The_Consummation_The_Course_of_the_Empire_1836.jpg");
+  }
+}
+
+@media (max-height: 800px) {
+  #container1 {
+    padding-bottom: 1rem;
   }
 }
 
@@ -109,6 +115,12 @@ body {
   }
 }
 
+@media (max-height: 800px) {
+  #container2 {
+    padding-bottom: 1rem;
+  }
+}
+
 #container2 a {
   text-decoration: none;
 }
@@ -160,7 +172,7 @@ body {
 /******************************************* container4 *******************************************/
 
 #container4 {
-  height: 75px;
+  height: 100px;
   padding: 0 2rem;
   background-color: #f1f1f1;
 }
