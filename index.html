@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="./main.css" />
     <link rel="icon" href="./images/favicon.png" />
+
     <title>lunarcitizens</title>
   </head>
   <body>
@@ -37,20 +38,19 @@
           </div>
         </div>
       </div>
-      <div class="down-arrow-div d-flex align-items-end justify-content-center">
-        <a href="#container2">
-          <svg
-            class="down-arrow"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#fff"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
-            />
-          </svg>
-        </a>
+      <div class="arrow-div d-flex align-items-end justify-content-center">
+        <svg
+          id="container1Arrow"
+          class="arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#fff"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+          />
+        </svg>
       </div>
     </div>
 
@@ -105,91 +105,107 @@
         </div>
       </div>
 
-      <div class="down-arrow-div d-flex align-items-end justify-content-center">
-        <a href="#container3">
-          <svg
-            class="down-arrow"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#bbb"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
-            />
-          </svg>
-        </a>
+      <div class="arrow-div d-flex align-items-end justify-content-center">
+        <svg
+          id="container2Arrow"
+          class="arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#bbb"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+          />
+        </svg>
       </div>
     </div>
 
-    <div id="container3" class="container-fluid d-flex align-items-center justify-content-center">
-      <div class="col-lg-4 col-md-6 p-0">
-        <div class="card pt-3 pb-3 ms-2 me-2 mb-4">
-          <div class="card-body">
-            <div class="chain-icon-div d-flex align-items-center justify-content-center">
-              <img src="./images/terra.png" />
-            </div>
-            <div class="w-100 text-center">
-              <b class="fs-4">Terra</b>
-            </div>
-            <div class="w-100 text-center mt-4 mb-4">
-              <a
-                href="https://station.terra.money/validator/terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-primary btn-lg"
-              >
-                Stake on Terra Station
-              </a>
-            </div>
-            <div class="w-100 text-center mt-2">
-              <a
-                href="https://tpa.smartstake.io/val/terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Terra Performance Analytics
-              </a>
-            </div>
-            <div class="w-100 text-center mt-2">
-              Finder:
-              <a
-                href="https://finder.terra.money/columbus-5/validator/terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Mainnet
-              </a>
-              •
-              <a
-                href="https://finder.terra.money/columbus-5/validator/terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Testnet
-              </a>
-            </div>
+    <div id="container3" class="container-fluid">
+      <div class="container-content row justify-content-center ms-auto me-auto">
+        <div class="col-lg-4 col-md-6 p-0">
+          <div class="card pt-3 pb-3 ms-2 me-2 mb-4">
+            <div class="card-body">
+              <div class="chain-icon-div d-flex align-items-center justify-content-center">
+                <img src="./images/terra.png" />
+              </div>
+              <div class="w-100 text-center">
+                <b class="fs-4">Terra</b>
+              </div>
+              <div class="w-100 text-center mt-4 mb-4">
+                <a
+                  href="https://station.terra.money/validator/terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary btn-lg"
+                >
+                  Stake on Terra Station
+                </a>
+              </div>
+              <div class="w-100 text-center mt-2">
+                <a
+                  href="https://tpa.smartstake.io/val/terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Terra Performance Analytics
+                </a>
+              </div>
+              <div class="w-100 text-center mt-2">
+                Finder:
+                <a
+                  href="https://finder.terra.money/columbus-5/validator/terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Mainnet
+                </a>
+                •
+                <a
+                  href="https://finder.terra.money/columbus-5/validator/terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Testnet
+                </a>
+              </div>
 
-            <div class="w-100 text-center mt-2">
-              Stake ID:
-              <a
-                href="https://stake.id/#/validator/DEB13F393E285B6059C55ADC6354C944C7E18501"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Mainnet
-              </a>
-              •
-              <a
-                href="https://bombay.stake.id/#/validator/CC02A255CA8E3075361B209EFF89E4483238FB46"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Testnet
-              </a>
+              <div class="w-100 text-center mt-2">
+                Stake ID:
+                <a
+                  href="https://stake.id/#/validator/DEB13F393E285B6059C55ADC6354C944C7E18501"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Mainnet
+                </a>
+                •
+                <a
+                  href="https://bombay.stake.id/#/validator/CC02A255CA8E3075361B209EFF89E4483238FB46"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Testnet
+                </a>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="arrow-div d-flex align-items-end justify-content-center">
+        <svg
+          id="container3Arrow"
+          class="arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#bbb"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894l6-3z"
+          />
+        </svg>
       </div>
     </div>
 
@@ -202,5 +218,11 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+      integrity="sha256-Geq3csjLKRnRTVY3dLJJkZ9JiSlfVM9kRDRwyZZJMcQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
